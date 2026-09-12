@@ -224,7 +224,19 @@ nav {
 .nav-links a.active:hover {
     opacity: 1;
 }
+#a-propos .photo {
+    flex: 0 0 220px !important;
+    width: 220px !important;
+    height: 280px !important;
+    overflow: hidden;
+}
 
+#a-propos .photo img {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
 /* ==============================
    VERSION MOBILE
    ============================== */
