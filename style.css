@@ -118,6 +118,7 @@ section h2 {
 
 .photo {
     flex: 0 0 220px;
+    width: 220px; 
     height: 280px;
 
     border: 1px solid #777777;
@@ -224,19 +225,7 @@ nav {
 .nav-links a.active:hover {
     opacity: 1;
 }
-#a-propos .photo {
-    flex: 0 0 220px !important;
-    width: 500px !important;
-    height: 600px !important;
-    overflow: hidden;
-}
 
-#a-propos .photo img {
-    display: block;
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
-}
 /* ==============================
    VERSION MOBILE
    ============================== */
